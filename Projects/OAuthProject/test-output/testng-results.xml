@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-07T20:39:33 EET" name="Default suite" finished-at="2021-02-07T20:39:35 EET" duration-ms="1676">
+    <groups>
+    </groups>
+    <test started-at="2021-02-07T20:39:33 EET" name="Default test" finished-at="2021-02-07T20:39:35 EET" duration-ms="1676">
+      <class name="ClientCredentials.NewTest">
+        <test-method signature="OAuthGrantType()[pri:0, instance:ClientCredentials.NewTest@73e9cf30]" started-at="2021-02-07T20:39:33 EET" name="OAuthGrantType" finished-at="2021-02-07T20:39:35 EET" duration-ms="1651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OAuthGrantType -->
+      </class> <!-- ClientCredentials.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

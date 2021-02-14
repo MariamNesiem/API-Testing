@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-31T18:46:09 EET" name="Default suite" finished-at="2021-01-31T18:46:11 EET" duration-ms="1577">
+    <groups>
+    </groups>
+    <test started-at="2021-01-31T18:46:09 EET" name="Default test" finished-at="2021-01-31T18:46:11 EET" duration-ms="1577">
+      <class name="jiraAPITest.NewTest">
+        <test-method signature="JiraAPICreateIssue()[pri:0, instance:jiraAPITest.NewTest@55634720]" started-at="2021-01-31T18:46:09 EET" name="JiraAPICreateIssue" finished-at="2021-01-31T18:46:11 EET" duration-ms="1546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JiraAPICreateIssue -->
+      </class> <!-- jiraAPITest.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
