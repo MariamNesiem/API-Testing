@@ -7,7 +7,6 @@ import org.testng.annotations.Test;
 
 import GoogleMapsBody.location;
 import GoogleMapsBody.requestBody;
-import io.restassured.RestAssured.*;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.ContentType;

@@ -2,15 +2,11 @@ package demo;
 
 import static io.restassured.RestAssured.given;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import io.restassured.parsing.Parser;
-import io.restassured.path.json.JsonPath;
 import pojo.AccessToken;
 import pojo.Api;
 import pojo.GetCourse;

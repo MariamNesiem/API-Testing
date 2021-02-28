@@ -1,4 +1,4 @@
-package GoogleMapsBody;
+package pojo;
 
 import java.util.List;
 

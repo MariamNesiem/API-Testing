@@ -41,8 +41,9 @@ public class GoogleMapsTest {
 			  .expect().defaultParser(Parser.JSON)
 			  .when().post("/maps/api/place/add/json")
 			  .as(Response.class);
-			 // .then().assertThat().statusCode(200);
+			//  .then().assertThat().statusCode(200);
 	  
 	  System.out.println(r.getStatus());
+	  
   }
 }
