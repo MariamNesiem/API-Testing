@@ -13,6 +13,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+
 <build>
         <plugins>
             <plugin>
@@ -25,7 +26,7 @@
             <plugin>
                 <groupId>net.masterthought</groupId>
                 <artifactId>maven-cucumber-reporting</artifactId>
-                <version>5.0.0</version>
+                <version>5.5.2</version>
                 <executions>
                     <execution>
                         <id>execution</id>
@@ -36,7 +37,7 @@
                         <configuration>
                             <projectName>cucumber-jvm-example</projectName>
                             <!-- optional, per documentation set this to "true" to bypass generation of Cucumber Reports entirely, defaults to false if not specified -->
-                            <skip>false</skip>
+                            <skip>true</skip>
                             <!-- output directory for the generated report -->
                             <outputDirectory>${project.build.directory}</outputDirectory>
                             <!-- optional, defaults to outputDirectory if not specified -->
@@ -47,13 +48,13 @@
                             </jsonFiles>
                             <!-- optional, defaults to outputDirectory if not specified -->
                       
-                            <parallelTesting>false</parallelTesting>
+                            <parallelTesting>true</parallelTesting>
                             <!-- optional, set true to group features by its Ids -->
-                            <mergeFeaturesById>false</mergeFeaturesById>
+                            <mergeFeaturesById>true</mergeFeaturesById>
                             <!-- optional, set true to get a final report with latest results of the same test from different test runs -->
-                            <mergeFeaturesWithRetest>false</mergeFeaturesWithRetest>
+                            <mergeFeaturesWithRetest>true</mergeFeaturesWithRetest>
                             <!-- optional, set true to fail build on test failures -->
-                            <checkBuildResult>false</checkBuildResult>
+                            <checkBuildResult>true</checkBuildResult>
                         </configuration>
                     </execution>
                 </executions>
@@ -105,6 +106,8 @@
     <version>6.10.0</version>
     <scope>test</scope>
 </dependency>
+
+
 
   </dependencies>
 </project>
